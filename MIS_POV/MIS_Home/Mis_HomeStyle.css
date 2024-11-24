@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    line-height: 1.6; /* Improved readability */
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(Pics/bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 20px 10%; /* Increased padding for better spacing */
+    overflow: hidden;
+    position: relative;
+    animation: fadeIn 1s ease-in; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+nav {
+    padding: 15px 0; /* Increased padding for a more spacious nav */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(134, 134, 134, 0.8); /* Added a background for contrast */
+    border-radius: 10px; /* Rounded corners for the nav */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    animation: slideDown 0.5s ease-in-out; /* Slide-down animation */
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul {
+    display: flex; /* Use flex for better alignment */
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px; /* Adjusted margin for more spacing */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500; /* Slightly bolder for better visibility */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #df4881; /* Change color on hover for better interaction */
+}
+
+.btn1 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #000000;
+    background-image: linear-gradient(45deg, #ffffff, #ffffff);
+    font-size: 16px; /* Increased font size for better readability */
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Specify background-color for clarity */
+    animation: bounceIn 0.5s ease; /* Bounce-in animation */
+    margin-left: -200px;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.btn1:hover {
+    background-image: linear-gradient(0deg, #000000, #ffffff, #000000); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #ffffff;
+    background-image: linear-gradient(45deg, #000000, #000000);
+    font-size: 16px; /* Increased font size for better readability */
+    border-radius: 30px;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Specify background-color for clarity */
+    animation: bounceIn 0.5s ease; /* Bounce-in animation */
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.btn:hover {
+    background-image: linear-gradient(0deg, #ffffff, #000000, #fbfbfb); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.content {
+    margin-top: 100px; /* Increased margin for better spacing */
+    max-width: 600px;
+    color: #222; /* Set a default text color */
+    animation: fadeInUp 0.5s ease-in-out; /* Fade-in-up animation */
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.content h1 {
+    font-size: 70px; /* Font size for the main heading */
+    color: #222; /* Text color */
+    line-height: 1.2; /* Reduced line height for closer spacing */
+}
+
+.content h4 {
+    margin: 10px 0 30px; /* Margin for the paragraph */
+    color: #333; /* Text color */
+}
+
+.hero p {
+    margin: 10px 0 10px; /* Margin for the paragraph */
+    color: #000000; /* Text color */
+    margin-left: -200px;
+}
+
+.content .btn {
+    padding: 15px 80px; /* Button padding */
+    font-size: 16px; /* Button font size */
+    left: 10%;
+}
+
+.feature-img {
+    width: 30%; /* Make the image responsive */
+    max-width: 1000px; /* Set a maximum width */
+    position: absolute; /* Keep it absolute for positioning */
+    bottom: 0; /* Align it at the bottom */
+    right: 10%; /* Adjust right positioning for better alignment */
+    top: 25%; /* Reset top to auto */
+    transition: transform 0.3s; /* Smooth transition for image */
+}
+
+.feature-img:hover {
+    transform: scale(1.05); /* Slightly enlarge image on hover */
+}

@@ -1,0 +1,149 @@
+CREATE TABLE `mis_report`.`pc_details` (`id` INT NOT NULL AUTO_INCREMENT ,`pc_number` VARCHAR(255) NOT NULL , `hostname` VARCHAR(255) NOT NULL , `internal_ip` VARCHAR(39) NOT NULL , `laboratory_id` INT NOT NULL , `notes` TEXT NOT NULL , `operating_system` VARCHAR(255) NOT NULL , `architecture` VARCHAR(3) NOT NULL , `date_added` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , `operational` BOOLEAN NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+========================================================================================================================================
+
+<-- ROOM 303 -->
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '1', 'Kaizen-1', '192.168.0.100', '1', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '2', 'Kaizen-2', '192.168.0.101', '1', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '3', 'Kaizen-3', '192.168.0.102', '1', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '4', 'Kaizen-4', '192.168.0.103', '1', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '5', 'Kaizen-5', '192.168.0.104', '1', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '0', 'Kaizen-0', '192.168.0.105', '1', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+========================================================================================================================================
+
+<-- ROOM 305 -->
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '1', 'Kaizen-51', '192.168.0.100', '2', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '2', 'Kaizen-52', '192.168.0.101', '2', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '3', 'Kaizen-53', '192.168.0.102', '2', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '4', 'Kaizen-54', '192.168.0.103', '2', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '5', 'Kaizen-55', '192.168.0.104', '2', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '10', 'Kaizen-0', '192.168.0.105', '2', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+========================================================================================================================================
+
+<-- ROOM 307 -->
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '1', 'Kaizen-101', '192.168.0.100', '3', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '2', 'Kaizen-102', '192.168.0.101', '3', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '3', 'Kaizen-103', '192.168.0.102', '3', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '4', 'Kaizen-104', '192.168.0.103', '3', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '5', 'Kaizen-105', '192.168.0.104', '3', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '10', 'Kaizen-0', '192.168.0.105', '3', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+========================================================================================================================================
+
+<-- ROOM 503 -->
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '1', 'Kaizen-151', '192.168.0.100', '4', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '2', 'Kaizen-152', '192.168.0.101', '4', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '3', 'Kaizen-153', '192.168.0.102', '4', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '4', 'Kaizen-154', '192.168.0.103', '4', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '5', 'Kaizen-155', '192.168.0.104', '4', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '10', 'Kaizen-0', '192.168.0.105', '4', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+========================================================================================================================================
+
+<-- ROOM 504 -->
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '1', 'Kaizen-201', '192.168.0.100', '5', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '2', 'Kaizen-202', '192.168.0.101', '5', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '3', 'Kaizen-203', '192.168.0.102', '5', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '4', 'Kaizen-204', '192.168.0.103', '5', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '5', 'Kaizen-205', '192.168.0.104', '5', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '10', 'Kaizen-0', '192.168.0.105', '5', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+========================================================================================================================================
+
+<-- ROOM 506 -->
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '1', 'Kaizen-201', '192.168.0.100', '6', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '2', 'Kaizen-202', '192.168.0.101', '6', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '3', 'Kaizen-203', '192.168.0.102', '6', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '4', 'Kaizen-204', '192.168.0.103', '6', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '5', 'Kaizen-205', '192.168.0.104', '6', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '10', 'Kaizen-0', '192.168.0.105', '6', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+========================================================================================================================================
+
+<-- ROOM 606 -->
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '1', 'Kaizen-251', '192.168.0.100', '7', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '2', 'Kaizen-252', '192.168.0.101', '7', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '3', 'Kaizen-253', '192.168.0.102', '7', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '4', 'Kaizen-254', '192.168.0.103', '7', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '5', 'Kaizen-255', '192.168.0.104', '7', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '10', 'Kaizen-0', '192.168.0.105', '7', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+
+========================================================================================================================================
+
+CREATE TABLE `mis_report`.`pc_reports` (`id` INT NOT NULL AUTO_INCREMENT , `pc_id` INT NOT NULL , `issue` TEXT NOT NULL , `status` INT NOT NULL , `date_created` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , `student_id` VARCHAR(255) NOT NULL , `staff_id` VARCHAR(255) NOT NULL ,`remarks` TEXT, `date_updated` DATETIME NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB; 
+
+
+INSERT INTO `pc_reports` (`id`, `pc_id`, `issue`, `status`, `date_created`, `student_id`, `staff_id`, `remarks`, `date_updated`) VALUES (NULL, '1', 'test issue', '1', current_timestamp(),'1','1','<note_here>', '2024-09-22 18:31:31.000000');
+INSERT INTO `pc_reports` (`id`, `pc_id`, `issue`, `status`, `date_created`, `student_id`, `staff_id`, `remarks`, `date_updated`) VALUES (NULL, '2', 'test issue 2', '1', current_timestamp(),'1','1','<note_here>', '2024-09-22 18:31:31.000000');
+INSERT INTO `pc_reports` (`id`, `pc_id`, `issue`, `status`, `date_created`, `student_id`, `staff_id`, `remarks`, `date_updated`) VALUES (NULL, '2', 'test issue 3', '1', current_timestamp(),'1','1','<note_here>', '2024-09-22 18:31:31.000000');
+INSERT INTO `pc_reports` (`id`, `pc_id`, `issue`, `status`, `date_created`, `student_id`, `staff_id`, `remarks`, `date_updated`) VALUES (NULL, '3', 'test issue 4', '1', current_timestamp(),'1','1','<note_here>', '2024-09-22 18:31:31.000000');
+
+
+====================
+
+
+
+CREATE TABLE `mis_report`.`pc_laboratory` (`id` INT NOT NULL AUTO_INCREMENT , `lab_name` TEXT NOT NULL , `lab_location` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+====================
+
+
+CREATE TABLE `mis_report`.`pc_reports_status_labels` (`id` INT NOT NULL AUTO_INCREMENT , `label` VARCHAR(255) NOT NULL , `description` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB; 
+
+
+INSERT INTO `pc_reports_status_labels` (`id`, `label`, `description`) VALUES (NULL, 'PENDING', 'Pending reports');
+INSERT INTO `pc_reports_status_labels` (`id`, `label`, `description`) VALUES (NULL, 'ONGOING', 'Ongoing reports');
+INSERT INTO `pc_reports_status_labels` (`id`, `label`, `description`) VALUES (NULL, 'DONE', 'Done reports');
+
+====================
+
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '1', 'Kaizen-1', '192.168.0.100', '1', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '2', 'Kaizen-2', '192.168.0.101', '1', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '3', 'Kaizen-3', '192.168.0.102', '1', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '4', 'Kaizen-4', '192.168.0.103', '1', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '5', 'Kaizen-5', '192.168.0.104', '1', '', 'Windows 10', 'x64', current_timestamp(), '1');
+
+INSERT INTO `pc_details` (`id`, `pc_number`, `hostname`, `internal_ip`, `laboratory_id`, `notes`, `operating_system`, `architecture`, `date_added`, `operational`) VALUES (NULL, '10', 'Kaizen-0', '192.168.0.105', '1', '', 'Windows 10', 'x64', current_timestamp(), '1');
